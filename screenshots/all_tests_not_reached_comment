@@ -1,0 +1,1 @@
+All tests were written in a way that that would at least run when reached, however the file that they were testing (card_game.rb) was not setup properly.
