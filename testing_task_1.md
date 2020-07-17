@@ -10,7 +10,7 @@ class CardGame
 
 # Function name needs to have underscore between words, and no capitalisation.
   def checkforAce(card)
-# should be two = in order to check, rather than assert.
+# should be two '=' in order to check, rather than assert.
     if card.value = 1
       return true
     else
@@ -18,7 +18,7 @@ class CardGame
     end
   end
 
-# dif should be def, this will cause an error. Also there should be a comma between arguments.
+# dif should be def, this will not register the function. Also there should be a comma between arguments.
   dif highest_card(card1 card2)
   if card1.value > card2.value
   # card does not exist as a variable in this function, should be card1.
@@ -36,7 +36,7 @@ def self.cards_total(cards)
   total
   for card in cards
     total += card.value
-    # this return string is in the loop, so it will print every time. Also total should be an integer, so it needs a .to_s method. There is also no space after "of" in the string, so it would print, for example, "of2"
+    # This return string is in the loop, so it will print every time. Also total should be an integer, so it needs a .to_s method. There is also no space after "of" in the string, so it would print, for example, "of2"
     return "You have a total of" + total
   end
 end
