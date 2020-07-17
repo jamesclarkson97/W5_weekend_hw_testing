@@ -27,7 +27,7 @@ class CardGame
 end
 end
 
-# Regardless, one of the two ends above will end the CardGame class functions, therefore the function bellow lies outwith a CardGame class.
+# Regardless, one of the two ends above will end the CardGame class functions, therefore the function bellow lies outwith a CardGame class. Also it does not need an argument passed since the method is being called on itself.
 def self.cards_total(cards)
 # total isn't set to an integer, so nothing can be added to it when it is called in the loop.
   total
