@@ -6,8 +6,11 @@
 
 class CardGame
 
+# No initialize function or attributes
+
 # Function name needs to have underscore between words, and no capitalisation.
   def checkforAce(card)
+# should be two = in order to check, rather than assert.
     if card.value = 1
       return true
     else
@@ -27,7 +30,7 @@ class CardGame
 end
 end
 
-# Regardless, one of the two ends above will end the CardGame class functions, therefore the function bellow lies outwith a CardGame class. Also it does not need an argument passed since the method is being called on itself.
+# Regardless, one of the two ends above will end the CardGame class functions, therefore the function bellow lies outwith a CardGame class.
 def self.cards_total(cards)
 # total isn't set to an integer, so nothing can be added to it when it is called in the loop.
   total
